@@ -562,6 +562,9 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all 0.5s 0.2s; }
+    @media (max-width: 56.25em) {
+      .popup__content {
+        width: 90%; } }
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
